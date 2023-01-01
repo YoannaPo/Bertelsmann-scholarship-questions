@@ -1,8 +1,8 @@
 
-# Bertelsmann-scholarship-questions : All the questions to prep for Final Assessment.
+# Bertelsmann-scholarship-questions : All the questions to prep for the Final Assessment.
 
 Being a recipient of the Bertelsmann Next Gen Tech Booster Scholarship, it's an excellent opportunity. 
-This repository is intended to help structure the knowledge gained during this scholarship. 
+</br>This repository is intended to help structure the knowledge gained during this FRONTEND scholarship. 
 The added questions were created on the basis of materials available on the Udacity platform.
 Feel free to contribute, and add your questions with answers.
 
