@@ -50,7 +50,7 @@ Most of the technical questions should have a three sentence response in the EUE
 
 - [x] T-HTML-4) What is the job of target attribute?
   - **Explanation:** With the target attribute, you can specify where to open the document.
-  - **Use:** It's the first line of code in the HTML document.
+  - **Use:** The target attribute can be used on the following elements: `<a>`, `<area>`, `<base>`, `<form>`.
   - **Example:** Syntax `<form target="_blank|_self|_parent|_top |framename ">`
 Attribute Values:
     </br>_blank: It opens the link in a new window.
