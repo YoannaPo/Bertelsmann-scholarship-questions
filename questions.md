@@ -1,5 +1,5 @@
 
-# Bertelsmann Next Gen Tech Booster Scholarship: questions to prep for Final Assessment.
+# Bertelsmann Next Gen Tech Booster Scholarship: questions to prep for the Final Assessment.
 
 ## Table of Contents
 
@@ -48,15 +48,15 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Example:** For an HTML5 document the tag would be `<!DOCTYPE html>`
   - **Source:** https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
 
-  - [x] T-HTML-4) What is the job of target attribute?
+- [x] T-HTML-4) What is the job of target attribute?
   - **Explanation:** With the target attribute, you can specify where to open the document.
   - **Use:** It's the first line of code in the HTML document.
   - **Example:** Syntax `<form target="_blank|_self|_parent|_top |framename ">`
 Attribute Values:
-    _blank: It opens the link in a new window.
-    _self: It is the default value. It opens the linked document in the same frame.
-    _parent: It opens the linked document in the parent frameset.
-    _top: It opens the linked document in the full body of the window.
+    </br>_blank: It opens the link in a new window.
+    </br>_self: It is the default value. It opens the linked document in the same frame.
+    </br>_parent: It opens the linked document in the parent frameset.
+    </br>_top: It opens the linked document in the full body of the window.
     framename: It opens the linked document in the named frame.
   - **Source:** https://www.geeksforgeeks.org/html-link-target-attribute/
 
