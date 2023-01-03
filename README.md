@@ -27,7 +27,7 @@ Firstly thanks for your time and contributions!!! :sparkling_heart::sparkling_he
 
 ## ⭐ How To Make A Pull Request:
 Step by step instructions:
- from DigitalOcean: https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+ </br>from DigitalOcean: https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 
 Github documentation:
 https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request
