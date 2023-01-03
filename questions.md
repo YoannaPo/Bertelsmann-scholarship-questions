@@ -41,3 +41,23 @@ Most of the technical questions should have a three sentence response in the EUE
   - **Use:** Tells the browser it is rendering an HTML document -> how organize the text or videos on your web page's ect.
   - **Example:** Nearly every web document using HTML will start with this: `<!DOCTYPE html>`
   - **Source:** Udacity
+
+- [x] T-HTML-3) What does a doctype do?
+  - **Explanation:** Instructions to the browser about what version of HTML the webpage is written in, ensuring the web page is parsed the same way across web browsers.
+  - **Use:** It's the first line of code in the HTML document.
+  - **Example:** For an HTML5 document the tag would be `<!DOCTYPE html>`
+  - **Source:** https://www.freecodecamp.org/news/what-is-the-doctype-declaration-in-html/
+
+  - [x] T-HTML-4) What is the job of target attribute?
+  - **Explanation:** With the target attribute, you can specify where to open the document.
+  - **Use:** It's the first line of code in the HTML document.
+  - **Example:** Syntax `<form target="_blank|_self|_parent|_top |framename ">`
+Attribute Values:
+    _blank: It opens the link in a new window.
+    _self: It is the default value. It opens the linked document in the same frame.
+    _parent: It opens the linked document in the parent frameset.
+    _top: It opens the linked document in the full body of the window.
+    framename: It opens the linked document in the named frame.
+  - **Source:** https://www.geeksforgeeks.org/html-link-target-attribute/
+
+
