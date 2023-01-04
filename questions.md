@@ -60,4 +60,11 @@ Attribute Values:
     framename: It opens the linked document in the named frame.
   - **Source:** https://www.geeksforgeeks.org/html-link-target-attribute/
 
+- [x] T-HTML-5) Tell more about noopener rel value, what it does?
+  - **Explanation:** The rel="noopener" attribute is one of the most important HTML attributes to know about because it directly affects external link security on anchor links that use the target="_blank" attribute.
+  - **Use:** When you add rel="noopener" to an external link on your website (with target="_blank), it prevents the website you link to from gaining access to your page via the window object (via the window.opener property). (if the page you refer to contains malicious code, it could use the backdoor (window.opener) to your website to hijack your user’s browser, and for example redirect them to a dangerous phishing website)
+  - **Example:** `<a href="https://www.youtube.com" rel="noopener" target="_blank"
+  >Link to youtube.com</a>`
+  - **Source:** https://techstacker.com/html-noopener-attribute/
+
 
