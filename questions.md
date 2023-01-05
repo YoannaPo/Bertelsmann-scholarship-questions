@@ -63,8 +63,19 @@ Attribute Values:
 - [x] T-HTML-5) Tell more about noopener rel value, what it does?
   - **Explanation:** The rel="noopener" attribute is one of the most important HTML attributes to know about because it directly affects external link security on anchor links that use the target="_blank" attribute.
   - **Use:** When you add rel="noopener" to an external link on your website (with target="_blank), it prevents the website you link to from gaining access to your page via the window object (via the window.opener property). (if the page you refer to contains malicious code, it could use the backdoor (window.opener) to your website to hijack your user’s browser, and for example redirect them to a dangerous phishing website)
-  - **Example:** `<a href="https://www.youtube.com" rel="noopener" target="_blank"
-  >Link to youtube.com</a>`
+  - **Example:** `<a href="https://www.youtube.com" rel="noopener" target="_blank">Link to youtube.com</a>`
   - **Source:** https://techstacker.com/html-noopener-attribute/
+
+  - [x] T-HTML-6) What mean the fact that HTML ends in a language?
+  - **Explanation:** It can be read both by a person and a computer. But unlike Java, Python or JavaScript, HTML is not a real programming language because it lacks variables, conditional statements or iterative loops. 
+  - **Use:** 
+  - **Example:** Let's consider what a computer does and, more specifically, what the CPU does (at the most basic level):
+</br>read data out of memory;
+</br>perform conditional logic on that data; and
+</br>iteratively perform that logic at lightning speed.
+For anything to qualify as a computer programming language, it must provide a way to program these aspects of a computer.
+HTML does not support any of these functions. That's why HTML is not a programming language.
+
+  - **Source:** Udacity, https://www.theserverside.com/feature/Is-HTML-a-programming-language
 
 
