@@ -66,16 +66,23 @@ Attribute Values:
   - **Example:** `<a href="https://www.youtube.com" rel="noopener" target="_blank">Link to youtube.com</a>`
   - **Source:** https://techstacker.com/html-noopener-attribute/
 
-  - [x] T-HTML-6) What mean the fact that HTML ends in a language?
+- [x] T-HTML-6) What mean the fact that HTML ends in a language?
   - **Explanation:** It can be read both by a person and a computer. But unlike Java, Python or JavaScript, HTML is not a real programming language because it lacks variables, conditional statements or iterative loops. 
   - **Use:** 
   - **Example:** Let's consider what a computer does and, more specifically, what the CPU does (at the most basic level):
 </br>read data out of memory;
-</br>perform conditional logic on that data; and
+</br>perform conditional logic on that data; 
 </br>iteratively perform that logic at lightning speed.
-For anything to qualify as a computer programming language, it must provide a way to program these aspects of a computer.
+</br>For anything to qualify as a computer programming language, it must provide a way to program these aspects of a computer.
 HTML does not support any of these functions. That's why HTML is not a programming language.
 
   - **Source:** Udacity, https://www.theserverside.com/feature/Is-HTML-a-programming-language
+
+- [x] T-HTML-7) What is the use of `srcset` in img tag applicable? Explain what the browser looks like when dealing with the img tag with the `srcset` attribute.
+
+  - **Explanation:** You use it to give users images of different sizes, depending on their device display width.
+  - **Use:** You are sending the lower resolution to limit data waste. When you want to enhance the UX - increase performance or send larger images to a higher-resolution display.
+  - **Example:** `<img srcset="small.jpg 300w, medium.jpg 800w, large.jpg 1000w" src="..." alt="bulb">`
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions
 
 
