@@ -85,4 +85,16 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Example:** `<img srcset="small.jpg 300w, medium.jpg 800w, large.jpg 1000w" src="..." alt="bulb">`
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions
 
+- [x] T-HTML-8) Explain the difference between: `<script>`, `<script async>`, `<script defer>`.
+  - **Explanation:** 
+  </br> - `<script>` HTML parsing is blocked, the script is fetched and executed immediately.
+  </br> - `<script async>` script fetched in parallel to HTML parsing and executed as soon as it is available. 
+  </br> - `<script defer>` script fetched in parallel to HTML parsing and executed when the page has finished parsing. If there are multiple of them, each deferred script is executed in the order they were encountered in the document.
+  - **Use:** 
+    - Use `async` when the script is independent of any other scripts on the page
+    - `defer` is useful when you need to make sure the HTML is fully parsed before executing.
+  - **Example:** 
+    - `async`is useful for analytics scripts.
+    - A deferred script must not contain `document.write`
+  - **Source:** https://www.frontendinterviewhandbook.com/html-questions#describe-the-difference-between-script-script-async-and-script-defer
 
