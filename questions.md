@@ -87,9 +87,9 @@ HTML does not support any of these functions. That's why HTML is not a programmi
 
 - [x] T-HTML-8) Explain the difference between: `<script>`, `<script async>`, `<script defer>`.
   - **Explanation:** 
-  </br> - `<script>` HTML parsing is blocked, the script is fetched and executed immediately.
-  </br> - `<script async>` script fetched in parallel to HTML parsing and executed as soon as it is available. 
-  </br> - `<script defer>` script fetched in parallel to HTML parsing and executed when the page has finished parsing. If there are multiple of them, each deferred script is executed in the order they were encountered in the document.
+    - `<script>` HTML parsing is blocked, the script is fetched and executed immediately.
+    - `<script async>` script fetched in parallel to HTML parsing and executed as soon as it is available. 
+    - `<script defer>` script fetched in parallel to HTML parsing and executed when the page has finished parsing. If there are multiple of them, each deferred script is executed in the order they were encountered in the document.
   - **Use:** 
     - Use `async` when the script is independent of any other scripts on the page
     - `defer` is useful when you need to make sure the HTML is fully parsed before executing.
@@ -97,4 +97,34 @@ HTML does not support any of these functions. That's why HTML is not a programmi
     - `async`is useful for analytics scripts.
     - A deferred script must not contain `document.write`
   - **Source:** https://www.frontendinterviewhandbook.com/html-questions#describe-the-difference-between-script-script-async-and-script-defer
+
+
+  ### CSS
+
+  - [x] T-CSS-1) What is the basic goal of the Cascading Stylesheet (CSS) language?
+  - **Explanation:** The basic goal is to allow a browser engine to paint page elements with specific features, like colors, positioning, or decorations.
+  - **Use:** In their basic building block you can find:
+    - the property - which is an identifier, that is a human-readable name, that defines which feature is considered.
+    - the value - which describe how the feature must be handled by the engine.
+  - **Example:** 
+  ```css
+  h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  }
+  ```
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
+
+- [x] T-CSS-2) What is the difference between declaration block and declaration?
+  - **Explanation:** Declaration block includes curly braces; declaration is only properies and values.
+  - **Use:** Setting CSS properties to specific values is the core function of the CSS language. CSS engine calculates which declarations apply to every single element of a page in order to appropriately lay it out, and to style it.
+  - **Example:** 
+  ```css
+  p {
+      colour: red;
+      font weight: bold;
+  }
+  ```
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
+
 
