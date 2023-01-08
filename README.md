@@ -33,3 +33,9 @@ Github documentation:
 https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request
 
 ---
+
+![thankYou logo](https://github.com/bhdicaire/thankYou/raw/master/img/logo.png)
+
+> Be mindful. Be grateful. Be positive. Be true. Be kind. —  Roy T. Bennett, The Light in the Heart
+
+![Udacity](https://img.shields.io/badge/Udacity-grey?style=for-the-badge&logo=udacity&logoColor=15B8E6)  and https://www.bertelsmann.com/news-and-media/specials/50000-scholarships/#st-1
