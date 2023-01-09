@@ -127,4 +127,23 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   ```
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
 
+ - [x] T-CSS-3) How can CSS select elements?
+  - **Explanation:** CSS can select elements using an element's, id, tag name or .class (it's a better practice to use .class for it). A tag name is a word (or character) between HTML angle brackets 
+  - **Use:** 
+  - **Example:** 
+  ```css
+  h1, h2 {
+  font-size:  4em;
+  margin-bottom: 0.67em 0;
+  }
+  ```
+  ```css
+  .container {
+  padding: 2em;
+  margin: 2em;
+  }
+  ```
+  - **Source:** Udacity
+
+
 
