@@ -34,8 +34,8 @@ https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-d
 
 ---
 
-![thankYou logo](https://github.com/bhdicaire/thankYou/raw/master/img/logo.png)
+![thank_you_logo](https://user-images.githubusercontent.com/20997077/211676509-21e27323-e2eb-4400-b03a-cf769b60f80a.png) 
 
-> Be mindful. Be grateful. Be positive. Be true. Be kind. —  Roy T. Bennett, The Light in the Heart
+> <strong>Be mindful. Be grateful. Be positive. Be true. Be kind.</strong> —  Roy T. Bennett, The Light in the Heart
 
 ![Udacity](https://img.shields.io/badge/Udacity-grey?style=for-the-badge&logo=udacity&logoColor=15B8E6)  and https://www.bertelsmann.com/news-and-media/specials/50000-scholarships/#st-1
