@@ -145,5 +145,23 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   ```
   - **Source:** Udacity
 
+- [x] T-CSS-4) What is a pseudo-class?
+  - **Explanation:** A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).
+  - **Use:** For example, `:hover` can be used to change a button's color when the user's pointer hovers over it.
+  - **Example:** 
+  ```css
+  .primary_button {
+      text-decoration: none;
+      color: pink; 
+      border: none;
+      background-color: blue;
+  }
+
+  .primary_button:hover {
+      background-color: grey;
+  }
+  ```
+  - **Source:**
+
 
 
