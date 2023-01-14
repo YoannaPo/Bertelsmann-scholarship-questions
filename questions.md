@@ -161,7 +161,26 @@ HTML does not support any of these functions. That's why HTML is not a programmi
       background-color: grey;
   }
   ```
-  - **Source:**
+  - **Source:** Udacity
+
+- [x] T-CSS-5) Why using the `!important` rule is not a good idea?
+  - **Explanation:** Word !important allows you to solve one problem immediately (because it overrides everything else). Still, then it creates a stream of issues that keep going (especially when you haven't done the forethought to structure and organize our CSS in a way that makes sense to us).
+  - **Use:** The use of `!important` is considered an anti-pattern and bad practice. !important overrides all other declarations and makes the CSS code more difficult to maintain and debug. The only thing that can override an !important is another !important, and once you go down that road, it never stops. From a Web Accessibility perspective, the use of `!important` is negative because it would override the end-user defined styling.
+  - **Example:** 
+  ```css
+  .secondary_button {
+      text-decoration: none;
+      color: pink; 
+      border: none;
+      background-color: blue;
+  }
+
+  .secondary_button {
+      background-color: grey !important;
+  }
+  ```
+  - **Source:** https://dev.to/alvaromontoro/using-important-in-css-75c
+
 
 
 
