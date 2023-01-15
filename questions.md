@@ -182,5 +182,10 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Source:** https://dev.to/alvaromontoro/using-important-in-css-75c
 
 
+- [x] T-CSS-6) Tell me about `* { box-sizing: border-box; }` functionality and advantages.
+  - **Explanation and Use:** It allows you to specify the actual width and height of a box using the width and height properties. This allows you to input true sizes and not have to do any math to take padding and borders into account.
+  
+  - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model
+
 
 
