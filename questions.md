@@ -188,4 +188,10 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Source:** https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model
 
 
+- [x] T-CSS-7) What is a Box Model?
+  - **Explanation and Use:** Box Model - at the highest level - represents every HTML element in a rectangular box. This box has a number of properties that decide how it's displayed. Each element will be given a width, a height, a margin, a border, and padding.
+  
+  - **Source:** Udacity
+
+
 
