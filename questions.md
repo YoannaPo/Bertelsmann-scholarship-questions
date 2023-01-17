@@ -194,4 +194,15 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Source:** Udacity
 
 
+- [x] T-CSS-8) What is the difference between the `margin` and `padding` properties?
+  - **Explanation:** `Margin` adds space around an element, `padding` adds space inside of an element.
+  - **Use:**
+  ```css
+  .secondary_button {
+      padding: 15px;
+      margin: 20px; 
+  }
+  ```
+  - **Source:** Udacity
+
 
