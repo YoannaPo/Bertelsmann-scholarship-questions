@@ -205,4 +205,11 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   ```
   - **Source:** Udacity
 
-
+- [x] T-CSS-9) What types of relative units of measurement for CSS properties do you know?
+  - **Explanation and Use:**
+    - `%` - percentage of something, such as screen width
+    - `em` - A unit equivalent to the current font size - if 12px font, 2em would be 24px
+    - `vw` - units of viewport width (essentially the browser’s rendering space). Each unit is 1/100th of width
+    - `vh` - the same as above but for viewport height
+    
+  - **Source:** https://orangeable.com/css/units#:~:text=Here%20is%20a%20full%20list%20of%20relative%20units,glpyh%20for%20the%20selected%20font%20family.%20More%20items
