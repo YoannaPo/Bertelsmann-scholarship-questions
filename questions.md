@@ -213,3 +213,14 @@ HTML does not support any of these functions. That's why HTML is not a programmi
     - `vh` - the same as above but for viewport height
     
   - **Source:** https://orangeable.com/css/units#:~:text=Here%20is%20a%20full%20list%20of%20relative%20units,glpyh%20for%20the%20selected%20font%20family.%20More%20items
+
+
+- [x] T-CSS-10) What is a `border`?
+  - **Explanation:** Border: a line drawn around the content and padding of an element. It's one of the elements from CSS box model. The `border` property requires a syntax: first, we define the stroke width of the border, then its style, followed by its colour.
+  - **Use:**
+  ```css
+  .main_heading {
+      border-bottom: 5px solid red;
+  }
+  ```
+  - **Source:** Udacity
