@@ -224,3 +224,9 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   }
   ```
   - **Source:** Udacity
+
+
+- [x] T-CSS-11) What is the difference between <em> and <strong>?
+  - **Explanation and Use:** For emphasized (usually italics) words, use the <em> tag. For important words, use the <strong> tag. By default, <strong> elements are displayed in bold, but keep in mind that it is only the browser’s default behavior. Don’t use <strong> only to put some text in bold, but rather to give it more importance.
+  
+  - **Source:** Udacity
