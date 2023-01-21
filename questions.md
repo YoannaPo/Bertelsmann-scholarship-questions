@@ -230,3 +230,15 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Explanation and Use:** For emphasized (usually italics) words, use the `<em>` tag. For important words, use the `<strong>` tag. By default, `<strong>` elements are displayed in bold, but keep in mind that it is only the browser’s default behavior. Don’t use `<strong>` only to put some text in bold, but rather to give it more importance.
   
   - **Source:** Udacity
+
+
+- [x] T-CSS-12) What can you do by using `repeat` in CSS Grid? Tell me about `fr` unit.?
+  - **Explanation and Use:** By using `repeat`, you can automate the size of a grid. The `fr` unit represents a fraction of the available space in the grid container.
+  ```css
+  .container {
+      /*grid-template-columns: 1fr 1fr 1fr 1fr; the same as below*/
+      grid-template-columns: repeat(4, 1fr);
+  }
+  ```
+  
+  - **Source:** Udacity
