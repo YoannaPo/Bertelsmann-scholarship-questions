@@ -242,3 +242,10 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   ```
   
   - **Source:** Udacity
+
+
+- [x] T-CSS-13) What is viewport?
+  - **Explanation and Use:** Viewport - the area of the window in which web content can be seen. We use the dimensions of the viewport (usually the width, but sometimes the height) as the basis of our media queries. Your viewport is everything that is currently visible, notably, the "what is a viewport" section, and perhaps some of the navigation menu. The size of the viewport depends on the size of the screen, whether the browser is in fullscreen mode or not, and whether or not the user zoomed in.
+  
+  
+  - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts#what_is_a_viewport
