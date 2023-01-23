@@ -249,3 +249,15 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   
   
   - **Source:** https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts#what_is_a_viewport
+
+- [x] T-CSS-14) What are media queries?
+  - **Explanation and Use:** Media queries are used to set different style rules for different devices or sized screens. We use breakpoints to set the condition of a media query. All in all, media queries are used to create responsive layouts using breakpoints.
+   ```css
+  @media(min-width:900px) {
+    body {
+      background: red;
+    }
+  }
+  ```
+  
+  - **Source:** Udacity
