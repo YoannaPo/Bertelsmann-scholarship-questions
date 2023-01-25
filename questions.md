@@ -261,3 +261,26 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   ```
   
   - **Source:** Udacity
+
+
+- [x] T-CSS-15) How can you build complex media queries? 
+  - **Explanation** Complex media queries can be built using the keyword and to bound CSS rules between a range using min-width and max-width.
+  - **Use:** 
+   ```css
+  /* Medium Screens */
+  @media (min-width: 600px) and (max-width:900px) {
+    .container {
+    // rules for medium-sized screen
+    }
+  }
+
+  /* Large Screens */
+  @media (min-width:901px) {
+    .container {
+    // rules for large screen
+    }
+  }
+  ```
+  
+  - **Source:** Udacity
+
