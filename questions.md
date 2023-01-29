@@ -285,10 +285,10 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Source:** Udacity
 
 
-    ### JavaScript
+  ### JavaScript
 
 
-    - [x] T-JavaScript-1) What is a callback?
+- [x] T-JavaScript-1) What is a callback?
   - **Explanation and Use:** A function that is passed into another function is called a callback. 
    ```javascript
   // function expression catSays
