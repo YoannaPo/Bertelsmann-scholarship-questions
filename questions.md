@@ -6,8 +6,8 @@
 1.  [Technical](#technical-questions)
    - [HTML](#html)
    - [CSS](#css)
-   - [Javascript](#javascript)
-   - [Javascript General](#javascript-general)
+   - [JavaScript](#javascript)
+   - [JavaScript General](#javascript-general)
 
 2. [General](#general-questions)
 
@@ -283,4 +283,31 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   ```
   
   - **Source:** Udacity
+
+
+    ### JavaScript
+
+
+    - [x] T-JavaScript-1) What is a callback?
+  - **Explanation and Use:** A function that is passed into another function is called a callback. 
+   ```javascript
+  // function expression catSays
+  const catSays = function(max) {
+    let catMessage = "";
+    for (let i = 0; i < max; i++) {
+      catMessage += "meow ";
+    }
+    return catMessage;
+  };
+
+  // function declaration helloCat accepting a callback
+  function helloCat(callbackFunc) {
+    return "Hello " + callbackFunc(3);
+  }
+
+  // pass in catSays as a callback function
+  helloCat(catSays);
+  ```
+  
+  - **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
 
