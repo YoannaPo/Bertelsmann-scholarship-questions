@@ -312,15 +312,15 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Source:** https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
 
 
- [x] T-JavaScript-2) What is DOM?
+- [x] T-JavaScript-2) What is DOM?
   - **Explanation and Use:** The DOM stands for "Document Object Model" and is a tree-like structure that is a representation of the HTML document, the relationship between elements, and contains the content and properties of the elements.
 
   The DOM is not:
-    ❌ part of the JavaScript language
+    </br>❌ part of the JavaScript language
 
   The DOM is:
-    ✅ constructed from the browser
-    ✅ is globally accessible by JavaScript code using the document object
+    </br>✅ constructed from the browser
+    </br>✅ is globally accessible by JavaScript code using the document object
 
   
   - **Source:** Udacity
