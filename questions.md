@@ -285,6 +285,19 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Source:** Udacity
 
 
+- [x] T-CSS-16) Tell me about the different ways to visually hide content (and make it available only for screen readers).
+  - **Explanation:** 
+    - Make the element have a size of zero `width: 0; height: 0`
+    - Absolute position off screen `position: absolute; left: -99999px;`
+    - Text indent off screen if within block element `text-indent: -9999px;`
+    - `aria-label` which will read the string given to the attribute.
+
+  - **Use:** In most cases, I typically absolutely position the element off screen
+  
+  - **Source:** https://www.frontendinterviewhandbook.com/css-questions
+
+
+
   ### JavaScript
 
 
