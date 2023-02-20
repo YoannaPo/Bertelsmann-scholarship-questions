@@ -297,6 +297,32 @@ HTML does not support any of these functions. That's why HTML is not a programmi
   - **Source:** https://www.frontendinterviewhandbook.com/css-questions
 
 
+- [x] T-CSS-17) What is the difference between grid lines and grid tracks?
+  - **Explanation:** The answer is in the `grid-template-columns` property. Grid lines refer to the names of the lines that define the grid’s columns and rows. Grid tracks refer to the length of space between grid lines.
+
+  - **Use and Example:**
+    ```css
+    grid-template-columns: none | <track-list> | <auto-track-list> | subgrid <line-name-list>?
+
+    /* <track-list> values */
+    grid-template-columns: 200px 1fr 180px;
+    grid-template-columns: [linename col1] 250px [line2];
+    grid-template-columns: [sidebar] 1fr [content] 2fr;
+    grid-template-columns: fit-content(50%);
+    grid-template-columns: minmax(200px, 1fr) minmax(100px, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: subgrid;
+    grid-template-columns: masonry;
+
+    /* <auto-track-list> values */
+    grid-template-columns: 100px repeat(auto-fill, 100px) 200px;
+    grid-template-columns: 100px repeat(2, 1fr auto) 200px repeat(3, 5fr);
+    grid-template-columns: minmax(150px, max-content) repeat(auto-fill, 180px) 15%;
+    grid-template-columns: [col1] 100px [col1-end] repeat(auto-fit, [line3] 400px);
+    ```
+  
+  - **Source:** https://css-tricks.com/almanac/properties/g/grid-template-columns/#aa-syntax
+
 
   ### JavaScript
 
