@@ -363,3 +363,17 @@ HTML does not support any of these functions. That's why HTML is not a programmi
 
   
   - **Source:** Udacity
+
+- [x] T-JavaScript-3) What is Node (with a capital "N")?
+  - **Explanation and Use:** Node (with a capital "N"!) is a blueprint that contains information about all of the properties and methods for real nodes (with a lowercase "n"!). If you're not used to them, the words "interface", "property", and "method" can be kind of cryptic at first. Just remember that:
+
+  - interface = blueprint
+  - properties = data
+  - methods = functionality
+
+  So the Node Interface is a blueprint for all of the properties (data) and methods (functionality) that every real node has after it's been created. The Node Interface has a lot of properties and methods, but it's not very specific. What _is_ a node???
+
+  Just like "blueprint for a Building" is not as specific as "blueprint for a house" or "blueprint for a skyscraper". These are more-specific blueprints. And these more-specific blueprints would probably have their own properties and methods specific to just houses or skyscrapers.
+  
+  - **Source:** Udacity and https://developer.mozilla.org/en-US/docs/Web/API/Node
+
